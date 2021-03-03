@@ -1,14 +1,9 @@
-/**
- * @format
- * @flow strict-local
- */
-
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, TouchableWithoutFeedback } from 'react-native';
 import Animated, { useSharedValue, useAnimatedStyle, withTiming, Easing } from 'react-native-reanimated';
 import { WIDTH } from './utils';
 
-const TABS_WIDTH = WIDTH * 0.7;
+const TABS_WRAPPER_WIDTH = WIDTH * 0.7;
 const TAB_WIDTH = (WIDTH * 0.7) / 3;
 const LINE_WIDTH = (WIDTH * 0.7) / 3;
 
@@ -73,10 +68,6 @@ function Animatedtabs(props) {
             <Animated.View style={[styles.line, animatedOffset]} />
 
         </View>
-
-
-
-
     );
 }
 
@@ -85,7 +76,7 @@ const styles = StyleSheet.create({
         marginTop: 20,
         marginBottom: 15,
         alignSelf: 'center',
-        width: TABS_WIDTH,
+        width: TABS_WRAPPER_WIDTH,
         height: 40,
         backgroundColor: '#ddd',
         borderRadius: 10,

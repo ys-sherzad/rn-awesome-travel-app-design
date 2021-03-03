@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, Text } from 'react-native';
 import { WIDTH } from './utils';
 import Animated, { useSharedValue, useAnimatedStyle, withTiming, Easing, } from 'react-native-reanimated';
 
@@ -37,7 +37,7 @@ function Renderlistitem({ item, index }) {
 
     return (
         <Animated.View style={[styles.container, animatedX, animatedOpacity]}>
-            <Text>{'ITEM -----------------> ' + index}</Text>
+            <Text>{'CARD -----------------> ' + index}</Text>
         </Animated.View>
     );
 }
