@@ -1,1 +1,1 @@
-# A Minimal RN Reanimated-2 Example
+# A React Native Reanimated 2 Starter

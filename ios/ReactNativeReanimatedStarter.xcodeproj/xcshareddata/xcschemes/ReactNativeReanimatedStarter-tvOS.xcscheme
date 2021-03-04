@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "reanimated2_example-tvOS.app"
-               BlueprintName = "reanimated2_example-tvOS"
-               ReferencedContainer = "container:reanimated2_example.xcodeproj">
+               BuildableName = "ReactNativeReanimatedStarter-tvOS.app"
+               BlueprintName = "ReactNativeReanimatedStarter-tvOS"
+               ReferencedContainer = "container:ReactNativeReanimatedStarter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "reanimated2_example-tvOSTests.xctest"
-               BlueprintName = "reanimated2_example-tvOSTests"
-               ReferencedContainer = "container:reanimated2_example.xcodeproj">
+               BuildableName = "ReactNativeReanimatedStarter-tvOSTests.xctest"
+               BlueprintName = "ReactNativeReanimatedStarter-tvOSTests"
+               ReferencedContainer = "container:ReactNativeReanimatedStarter.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "reanimated2_example-tvOS.app"
-            BlueprintName = "reanimated2_example-tvOS"
-            ReferencedContainer = "container:reanimated2_example.xcodeproj">
+            BuildableName = "ReactNativeReanimatedStarter-tvOS.app"
+            BlueprintName = "ReactNativeReanimatedStarter-tvOS"
+            ReferencedContainer = "container:ReactNativeReanimatedStarter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "reanimated2_example-tvOS.app"
-            BlueprintName = "reanimated2_example-tvOS"
-            ReferencedContainer = "container:reanimated2_example.xcodeproj">
+            BuildableName = "ReactNativeReanimatedStarter-tvOS.app"
+            BlueprintName = "ReactNativeReanimatedStarter-tvOS"
+            ReferencedContainer = "container:ReactNativeReanimatedStarter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

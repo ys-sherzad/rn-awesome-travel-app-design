@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'reanimated2_example' do
+target 'ReactNativeReanimatedStarter' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'reanimated2_exampleTests' do
+  target 'ReactNativeReanimatedStarterTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -18,15 +18,15 @@ target 'reanimated2_example' do
   # Note that if you have use_frameworks! enabled, Flipper will not work and
   # you should disable these next few lines.
   use_flipper!({ 'Flipper-Folly' => '2.3.0' })
-  post_install do |installer|
-    flipper_post_install(installer)
+    post_install do |installer|
+      flipper_post_install(installer)
   end
 end
 
-target 'reanimated2_example-tvOS' do
-  # Pods for reanimated2_example-tvOS
+target 'ReactNativeReanimatedStarter-tvOS' do
+  # Pods for ReactNativeReanimatedStarter-tvOS
 
-  target 'reanimated2_example-tvOSTests' do
+  target 'ReactNativeReanimatedStarter-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

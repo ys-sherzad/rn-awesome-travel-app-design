@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.reanimated2_example"
+        applicationId "com.reactnativereanimatedstarter"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
