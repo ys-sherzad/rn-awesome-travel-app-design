@@ -10,8 +10,6 @@ import {
   StatusBar,
   View,
 } from 'react-native';
-import AnimatedTabs from './src/AnimatedTabs';
-import List from './src/List';
 
 const App = () => {
   return (
@@ -19,8 +17,7 @@ const App = () => {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <View style={styles.container}>
-          <AnimatedTabs />
-          <List />
+          <Text style={styles.title}>React Native Reanimated Starter</Text>
         </View>
       </SafeAreaView>
     </>
@@ -29,8 +26,13 @@ const App = () => {
 
 const styles = StyleSheet.create({
   container: {
-    height: '100%',
-    width: '100%'
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  title: {
+    fontSize: 28,
+    fontWeight: 'bold'
   }
 });
 
