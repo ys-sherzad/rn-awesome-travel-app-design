@@ -9,15 +9,16 @@ import {
   StyleSheet,
   StatusBar,
   View,
+  Text
 } from 'react-native';
 
 const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
+      <SafeAreaView style={styles.flexOne}>
         <View style={styles.container}>
-          <Text style={styles.title}>React Native Reanimated Starter</Text>
+          <Text style={styles.title}>React Native Reanimated 2 Starter</Text>
         </View>
       </SafeAreaView>
     </>
@@ -25,6 +26,9 @@ const App = () => {
 };
 
 const styles = StyleSheet.create({
+  flexOne: {
+    flex: 1
+  },
   container: {
     flex: 1,
     justifyContent: 'center',
@@ -32,7 +36,8 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 28,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    textAlign: 'center'
   }
 });
 
