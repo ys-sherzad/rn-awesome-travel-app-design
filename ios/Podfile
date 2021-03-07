@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'ReactNativeReanimatedStarter' do
+target 'RNAwesomeTravel' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'ReactNativeReanimatedStarterTests' do
+  target 'RNAwesomeTravelTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +23,10 @@ target 'ReactNativeReanimatedStarter' do
   end
 end
 
-target 'ReactNativeReanimatedStarter-tvOS' do
-  # Pods for ReactNativeReanimatedStarter-tvOS
+target 'RNAwesomeTravel-tvOS' do
+  # Pods for RNAwesomeTravel-tvOS
 
-  target 'ReactNativeReanimatedStarter-tvOSTests' do
+  target 'RNAwesomeTravel-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

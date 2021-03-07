@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "ReactNativeReanimatedStarter-tvOS.app"
-               BlueprintName = "ReactNativeReanimatedStarter-tvOS"
-               ReferencedContainer = "container:ReactNativeReanimatedStarter.xcodeproj">
+               BuildableName = "RNAwesomeTravel-tvOS.app"
+               BlueprintName = "RNAwesomeTravel-tvOS"
+               ReferencedContainer = "container:RNAwesomeTravel.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "ReactNativeReanimatedStarter-tvOSTests.xctest"
-               BlueprintName = "ReactNativeReanimatedStarter-tvOSTests"
-               ReferencedContainer = "container:ReactNativeReanimatedStarter.xcodeproj">
+               BuildableName = "RNAwesomeTravel-tvOSTests.xctest"
+               BlueprintName = "RNAwesomeTravel-tvOSTests"
+               ReferencedContainer = "container:RNAwesomeTravel.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "ReactNativeReanimatedStarter-tvOS.app"
-            BlueprintName = "ReactNativeReanimatedStarter-tvOS"
-            ReferencedContainer = "container:ReactNativeReanimatedStarter.xcodeproj">
+            BuildableName = "RNAwesomeTravel-tvOS.app"
+            BlueprintName = "RNAwesomeTravel-tvOS"
+            ReferencedContainer = "container:RNAwesomeTravel.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "ReactNativeReanimatedStarter-tvOS.app"
-            BlueprintName = "ReactNativeReanimatedStarter-tvOS"
-            ReferencedContainer = "container:ReactNativeReanimatedStarter.xcodeproj">
+            BuildableName = "RNAwesomeTravel-tvOS.app"
+            BlueprintName = "RNAwesomeTravel-tvOS"
+            ReferencedContainer = "container:RNAwesomeTravel.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

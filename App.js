@@ -5,22 +5,21 @@
 
 import React from 'react';
 import {
-  SafeAreaView,
   StyleSheet,
   StatusBar,
-  View,
-  Text
 } from 'react-native';
+import Content from './src/Content';
+import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
 
 const App = () => {
   return (
     <>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView style={styles.flexOne}>
-        <View style={styles.container}>
-          <Text style={styles.title}>React Native Reanimated 2 Starter</Text>
-        </View>
-      </SafeAreaView>
+      <StatusBar barStyle="light-content" />
+      <SafeAreaProvider>
+        <SafeAreaView style={styles.flexOne} edges={['right', 'left']}>
+          <Content />
+        </SafeAreaView>
+      </SafeAreaProvider>
     </>
   );
 };
@@ -29,16 +28,7 @@ const styles = StyleSheet.create({
   flexOne: {
     flex: 1
   },
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-  title: {
-    fontSize: 28,
-    fontWeight: 'bold',
-    textAlign: 'center'
-  }
+
 });
 
 export default App;

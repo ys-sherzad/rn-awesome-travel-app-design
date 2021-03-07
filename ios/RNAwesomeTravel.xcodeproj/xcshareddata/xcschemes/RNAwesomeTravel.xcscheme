@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "ReactNativeReanimatedStarter.app"
-               BlueprintName = "ReactNativeReanimatedStarter"
-               ReferencedContainer = "container:ReactNativeReanimatedStarter.xcodeproj">
+               BuildableName = "RNAwesomeTravel.app"
+               BlueprintName = "RNAwesomeTravel"
+               ReferencedContainer = "container:RNAwesomeTravel.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,17 +33,17 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "ReactNativeReanimatedStarterTests.xctest"
-               BlueprintName = "ReactNativeReanimatedStarterTests"
-               ReferencedContainer = "container:ReactNativeReanimatedStarter.xcodeproj">
+               BuildableName = "RNAwesomeTravelTests.xctest"
+               BlueprintName = "RNAwesomeTravelTests"
+               ReferencedContainer = "container:RNAwesomeTravel.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      buildConfiguration = "Release"
+      selectedDebuggerIdentifier = ""
+      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ReactNativeReanimatedStarter.app"
-            BlueprintName = "ReactNativeReanimatedStarter"
-            ReferencedContainer = "container:ReactNativeReanimatedStarter.xcodeproj">
+            BuildableName = "RNAwesomeTravel.app"
+            BlueprintName = "RNAwesomeTravel"
+            ReferencedContainer = "container:RNAwesomeTravel.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ReactNativeReanimatedStarter.app"
-            BlueprintName = "ReactNativeReanimatedStarter"
-            ReferencedContainer = "container:ReactNativeReanimatedStarter.xcodeproj">
+            BuildableName = "RNAwesomeTravel.app"
+            BlueprintName = "RNAwesomeTravel"
+            ReferencedContainer = "container:RNAwesomeTravel.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* ReactNativeReanimatedStarterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeReanimatedStarterTests.m */; };
+		00E356F31AD99517003FC87E /* RNAwesomeTravelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNAwesomeTravelTests.m */; };
+		0F79392303EF4EE59E631164 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A49E3507A3F41CA92C4FF90 /* Montserrat-ExtraLight.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2CFC1D6F38D74BA6AC25CB0E /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4413277E06404211BA770785 /* Montserrat-Light.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* ReactNativeReanimatedStarterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeReanimatedStarterTests.m */; };
-		536EB5CFD335313E4F716376 /* libPods-ReactNativeReanimatedStarter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC4B6838ACFED7EBC4F12C3 /* libPods-ReactNativeReanimatedStarter.a */; };
-		656A0ADDC4966AF71FE39DC1 /* libPods-ReactNativeReanimatedStarter-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 150D46C3FE6B6BA3348B8814 /* libPods-ReactNativeReanimatedStarter-tvOS.a */; };
-		7B06B3832EF3AE9766DF52C9 /* libPods-ReactNativeReanimatedStarter-ReactNativeReanimatedStarterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7847DCA2434BF4E6BB0044D4 /* libPods-ReactNativeReanimatedStarter-ReactNativeReanimatedStarterTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* RNAwesomeTravelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNAwesomeTravelTests.m */; };
+		517BB5A5260F454AA1A2B443 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CB70B8AF6584EE18926916A /* Montserrat-Bold.ttf */; };
+		536EB5CFD335313E4F716376 /* libPods-RNAwesomeTravel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC4B6838ACFED7EBC4F12C3 /* libPods-RNAwesomeTravel.a */; };
+		656A0ADDC4966AF71FE39DC1 /* libPods-RNAwesomeTravel-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 150D46C3FE6B6BA3348B8814 /* libPods-RNAwesomeTravel-tvOS.a */; };
+		7780422E0BF24C4D87A8F546 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC01C05801EC49BC9091B444 /* Montserrat-ExtraBold.ttf */; };
+		7B06B3832EF3AE9766DF52C9 /* libPods-RNAwesomeTravel-RNAwesomeTravelTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7847DCA2434BF4E6BB0044D4 /* libPods-RNAwesomeTravel-RNAwesomeTravelTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		B479A34773C4C8C19EC85FD2 /* libPods-ReactNativeReanimatedStarter-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB894A50D7906B14B8DF455 /* libPods-ReactNativeReanimatedStarter-tvOSTests.a */; };
+		85FAD70B79BA46D394032C2A /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF44156201B24F88A94096A8 /* Montserrat-Thin.ttf */; };
+		89B0189A30464194A4FF8266 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6412ECDCF88549ACB01B62A5 /* Montserrat-Medium.ttf */; };
+		A40643256DF94119802B3C81 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E4F932B904F338E7BEEB2 /* Montserrat-SemiBold.ttf */; };
+		B479A34773C4C8C19EC85FD2 /* libPods-RNAwesomeTravel-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB894A50D7906B14B8DF455 /* libPods-RNAwesomeTravel-tvOSTests.a */; };
+		FCF5D29EC1ED47B381EF7631 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DAE97F4CF024025A1047AD5 /* Montserrat-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,43 +36,51 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = ReactNativeReanimatedStarter;
+			remoteInfo = RNAwesomeTravel;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "ReactNativeReanimatedStarter-tvOS";
+			remoteInfo = "RNAwesomeTravel-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* ReactNativeReanimatedStarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeReanimatedStarterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* RNAwesomeTravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNAwesomeTravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* ReactNativeReanimatedStarterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeReanimatedStarterTests.m; sourceTree = "<group>"; };
-		119EDDF0738D42F251576668 /* Pods-ReactNativeReanimatedStarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeReanimatedStarter.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeReanimatedStarter/Pods-ReactNativeReanimatedStarter.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* ReactNativeReanimatedStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeReanimatedStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReactNativeReanimatedStarter/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ReactNativeReanimatedStarter/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNativeReanimatedStarter/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativeReanimatedStarter/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativeReanimatedStarter/main.m; sourceTree = "<group>"; };
-		150D46C3FE6B6BA3348B8814 /* libPods-ReactNativeReanimatedStarter-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeReanimatedStarter-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FC4B6838ACFED7EBC4F12C3 /* libPods-ReactNativeReanimatedStarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeReanimatedStarter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* ReactNativeReanimatedStarter-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactNativeReanimatedStarter-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* ReactNativeReanimatedStarter-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactNativeReanimatedStarter-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		342313EAE6158B20A42C2DE3 /* Pods-ReactNativeReanimatedStarter-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeReanimatedStarter-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeReanimatedStarter-tvOS/Pods-ReactNativeReanimatedStarter-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		5B4ECA4CBEB0766EFF751258 /* Pods-ReactNativeReanimatedStarter-ReactNativeReanimatedStarterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeReanimatedStarter-ReactNativeReanimatedStarterTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeReanimatedStarter-ReactNativeReanimatedStarterTests/Pods-ReactNativeReanimatedStarter-ReactNativeReanimatedStarterTests.release.xcconfig"; sourceTree = "<group>"; };
-		60E38BFC0CB619BD5976DBF4 /* Pods-ReactNativeReanimatedStarter-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeReanimatedStarter-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeReanimatedStarter-tvOS/Pods-ReactNativeReanimatedStarter-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		7847DCA2434BF4E6BB0044D4 /* libPods-ReactNativeReanimatedStarter-ReactNativeReanimatedStarterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeReanimatedStarter-ReactNativeReanimatedStarterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EB894A50D7906B14B8DF455 /* libPods-ReactNativeReanimatedStarter-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeReanimatedStarter-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativeReanimatedStarter/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9B049EDCD5DD68AB47D7FA4C /* Pods-ReactNativeReanimatedStarter-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeReanimatedStarter-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeReanimatedStarter-tvOSTests/Pods-ReactNativeReanimatedStarter-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		BB1DE5FF16BC9516E779FEAE /* Pods-ReactNativeReanimatedStarter-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeReanimatedStarter-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeReanimatedStarter-tvOSTests/Pods-ReactNativeReanimatedStarter-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		C897A57FF23C9462BFA42C3D /* Pods-ReactNativeReanimatedStarter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeReanimatedStarter.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeReanimatedStarter/Pods-ReactNativeReanimatedStarter.debug.xcconfig"; sourceTree = "<group>"; };
-		E8922C5E20EFB89E14E1DDA2 /* Pods-ReactNativeReanimatedStarter-ReactNativeReanimatedStarterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeReanimatedStarter-ReactNativeReanimatedStarterTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeReanimatedStarter-ReactNativeReanimatedStarterTests/Pods-ReactNativeReanimatedStarter-ReactNativeReanimatedStarterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* RNAwesomeTravelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAwesomeTravelTests.m; sourceTree = "<group>"; };
+		119EDDF0738D42F251576668 /* Pods-RNAwesomeTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAwesomeTravel.release.xcconfig"; path = "Target Support Files/Pods-RNAwesomeTravel/Pods-RNAwesomeTravel.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* RNAwesomeTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNAwesomeTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNAwesomeTravel/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RNAwesomeTravel/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNAwesomeTravel/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNAwesomeTravel/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNAwesomeTravel/main.m; sourceTree = "<group>"; };
+		150D46C3FE6B6BA3348B8814 /* libPods-RNAwesomeTravel-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNAwesomeTravel-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC4B6838ACFED7EBC4F12C3 /* libPods-RNAwesomeTravel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNAwesomeTravel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* RNAwesomeTravel-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RNAwesomeTravel-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* RNAwesomeTravel-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RNAwesomeTravel-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DAE97F4CF024025A1047AD5 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		342313EAE6158B20A42C2DE3 /* Pods-RNAwesomeTravel-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAwesomeTravel-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-RNAwesomeTravel-tvOS/Pods-RNAwesomeTravel-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4413277E06404211BA770785 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		4A49E3507A3F41CA92C4FF90 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLight.ttf"; path = "../assets/fonts/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		5B4ECA4CBEB0766EFF751258 /* Pods-RNAwesomeTravel-RNAwesomeTravelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAwesomeTravel-RNAwesomeTravelTests.release.xcconfig"; path = "Target Support Files/Pods-RNAwesomeTravel-RNAwesomeTravelTests/Pods-RNAwesomeTravel-RNAwesomeTravelTests.release.xcconfig"; sourceTree = "<group>"; };
+		60E38BFC0CB619BD5976DBF4 /* Pods-RNAwesomeTravel-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAwesomeTravel-tvOS.release.xcconfig"; path = "Target Support Files/Pods-RNAwesomeTravel-tvOS/Pods-RNAwesomeTravel-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		6412ECDCF88549ACB01B62A5 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		7847DCA2434BF4E6BB0044D4 /* libPods-RNAwesomeTravel-RNAwesomeTravelTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNAwesomeTravel-RNAwesomeTravelTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D0E4F932B904F338E7BEEB2 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		7EB894A50D7906B14B8DF455 /* libPods-RNAwesomeTravel-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNAwesomeTravel-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNAwesomeTravel/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CB70B8AF6584EE18926916A /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		9B049EDCD5DD68AB47D7FA4C /* Pods-RNAwesomeTravel-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAwesomeTravel-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-RNAwesomeTravel-tvOSTests/Pods-RNAwesomeTravel-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF44156201B24F88A94096A8 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		BB1DE5FF16BC9516E779FEAE /* Pods-RNAwesomeTravel-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAwesomeTravel-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RNAwesomeTravel-tvOSTests/Pods-RNAwesomeTravel-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		C897A57FF23C9462BFA42C3D /* Pods-RNAwesomeTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAwesomeTravel.debug.xcconfig"; path = "Target Support Files/Pods-RNAwesomeTravel/Pods-RNAwesomeTravel.debug.xcconfig"; sourceTree = "<group>"; };
+		CC01C05801EC49BC9091B444 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBold.ttf"; path = "../assets/fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E8922C5E20EFB89E14E1DDA2 /* Pods-RNAwesomeTravel-RNAwesomeTravelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAwesomeTravel-RNAwesomeTravelTests.debug.xcconfig"; path = "Target Support Files/Pods-RNAwesomeTravel-RNAwesomeTravelTests/Pods-RNAwesomeTravel-RNAwesomeTravelTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B06B3832EF3AE9766DF52C9 /* libPods-ReactNativeReanimatedStarter-ReactNativeReanimatedStarterTests.a in Frameworks */,
+				7B06B3832EF3AE9766DF52C9 /* libPods-RNAwesomeTravel-RNAwesomeTravelTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				536EB5CFD335313E4F716376 /* libPods-ReactNativeReanimatedStarter.a in Frameworks */,
+				536EB5CFD335313E4F716376 /* libPods-RNAwesomeTravel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				656A0ADDC4966AF71FE39DC1 /* libPods-ReactNativeReanimatedStarter-tvOS.a in Frameworks */,
+				656A0ADDC4966AF71FE39DC1 /* libPods-RNAwesomeTravel-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +114,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B479A34773C4C8C19EC85FD2 /* libPods-ReactNativeReanimatedStarter-tvOSTests.a in Frameworks */,
+				B479A34773C4C8C19EC85FD2 /* libPods-RNAwesomeTravel-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* ReactNativeReanimatedStarterTests */ = {
+		00E356EF1AD99517003FC87E /* RNAwesomeTravelTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* ReactNativeReanimatedStarterTests.m */,
+				00E356F21AD99517003FC87E /* RNAwesomeTravelTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = ReactNativeReanimatedStarterTests;
+			path = RNAwesomeTravelTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +138,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* ReactNativeReanimatedStarter */ = {
+		13B07FAE1A68108700A75B9A /* RNAwesomeTravel */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +149,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = ReactNativeReanimatedStarter;
+			name = RNAwesomeTravel;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,12 +157,27 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				1FC4B6838ACFED7EBC4F12C3 /* libPods-ReactNativeReanimatedStarter.a */,
-				7847DCA2434BF4E6BB0044D4 /* libPods-ReactNativeReanimatedStarter-ReactNativeReanimatedStarterTests.a */,
-				150D46C3FE6B6BA3348B8814 /* libPods-ReactNativeReanimatedStarter-tvOS.a */,
-				7EB894A50D7906B14B8DF455 /* libPods-ReactNativeReanimatedStarter-tvOSTests.a */,
+				1FC4B6838ACFED7EBC4F12C3 /* libPods-RNAwesomeTravel.a */,
+				7847DCA2434BF4E6BB0044D4 /* libPods-RNAwesomeTravel-RNAwesomeTravelTests.a */,
+				150D46C3FE6B6BA3348B8814 /* libPods-RNAwesomeTravel-tvOS.a */,
+				7EB894A50D7906B14B8DF455 /* libPods-RNAwesomeTravel-tvOSTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		325A009EB5F64390BD136D61 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8CB70B8AF6584EE18926916A /* Montserrat-Bold.ttf */,
+				CC01C05801EC49BC9091B444 /* Montserrat-ExtraBold.ttf */,
+				4A49E3507A3F41CA92C4FF90 /* Montserrat-ExtraLight.ttf */,
+				4413277E06404211BA770785 /* Montserrat-Light.ttf */,
+				6412ECDCF88549ACB01B62A5 /* Montserrat-Medium.ttf */,
+				2DAE97F4CF024025A1047AD5 /* Montserrat-Regular.ttf */,
+				7D0E4F932B904F338E7BEEB2 /* Montserrat-SemiBold.ttf */,
+				AF44156201B24F88A94096A8 /* Montserrat-Thin.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -159,12 +190,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* ReactNativeReanimatedStarter */,
+				13B07FAE1A68108700A75B9A /* RNAwesomeTravel */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* ReactNativeReanimatedStarterTests */,
+				00E356EF1AD99517003FC87E /* RNAwesomeTravelTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				E53AEAFDE48E199F037BC760 /* Pods */,
+				325A009EB5F64390BD136D61 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -174,10 +206,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* ReactNativeReanimatedStarter.app */,
-				00E356EE1AD99517003FC87E /* ReactNativeReanimatedStarterTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* ReactNativeReanimatedStarter-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* ReactNativeReanimatedStarter-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* RNAwesomeTravel.app */,
+				00E356EE1AD99517003FC87E /* RNAwesomeTravelTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* RNAwesomeTravel-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* RNAwesomeTravel-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,14 +217,14 @@
 		E53AEAFDE48E199F037BC760 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C897A57FF23C9462BFA42C3D /* Pods-ReactNativeReanimatedStarter.debug.xcconfig */,
-				119EDDF0738D42F251576668 /* Pods-ReactNativeReanimatedStarter.release.xcconfig */,
-				E8922C5E20EFB89E14E1DDA2 /* Pods-ReactNativeReanimatedStarter-ReactNativeReanimatedStarterTests.debug.xcconfig */,
-				5B4ECA4CBEB0766EFF751258 /* Pods-ReactNativeReanimatedStarter-ReactNativeReanimatedStarterTests.release.xcconfig */,
-				342313EAE6158B20A42C2DE3 /* Pods-ReactNativeReanimatedStarter-tvOS.debug.xcconfig */,
-				60E38BFC0CB619BD5976DBF4 /* Pods-ReactNativeReanimatedStarter-tvOS.release.xcconfig */,
-				9B049EDCD5DD68AB47D7FA4C /* Pods-ReactNativeReanimatedStarter-tvOSTests.debug.xcconfig */,
-				BB1DE5FF16BC9516E779FEAE /* Pods-ReactNativeReanimatedStarter-tvOSTests.release.xcconfig */,
+				C897A57FF23C9462BFA42C3D /* Pods-RNAwesomeTravel.debug.xcconfig */,
+				119EDDF0738D42F251576668 /* Pods-RNAwesomeTravel.release.xcconfig */,
+				E8922C5E20EFB89E14E1DDA2 /* Pods-RNAwesomeTravel-RNAwesomeTravelTests.debug.xcconfig */,
+				5B4ECA4CBEB0766EFF751258 /* Pods-RNAwesomeTravel-RNAwesomeTravelTests.release.xcconfig */,
+				342313EAE6158B20A42C2DE3 /* Pods-RNAwesomeTravel-tvOS.debug.xcconfig */,
+				60E38BFC0CB619BD5976DBF4 /* Pods-RNAwesomeTravel-tvOS.release.xcconfig */,
+				9B049EDCD5DD68AB47D7FA4C /* Pods-RNAwesomeTravel-tvOSTests.debug.xcconfig */,
+				BB1DE5FF16BC9516E779FEAE /* Pods-RNAwesomeTravel-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -200,9 +232,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* ReactNativeReanimatedStarterTests */ = {
+		00E356ED1AD99517003FC87E /* RNAwesomeTravelTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeReanimatedStarterTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RNAwesomeTravelTests" */;
 			buildPhases = (
 				1667D0AB76466B2B6A9DC3FA /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -215,14 +247,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = ReactNativeReanimatedStarterTests;
-			productName = ReactNativeReanimatedStarterTests;
-			productReference = 00E356EE1AD99517003FC87E /* ReactNativeReanimatedStarterTests.xctest */;
+			name = RNAwesomeTravelTests;
+			productName = RNAwesomeTravelTests;
+			productReference = 00E356EE1AD99517003FC87E /* RNAwesomeTravelTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* ReactNativeReanimatedStarter */ = {
+		13B07F861A680F5B00A75B9A /* RNAwesomeTravel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeReanimatedStarter" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNAwesomeTravel" */;
 			buildPhases = (
 				EF453EF450F1F298206D0BA8 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -236,14 +268,14 @@
 			);
 			dependencies = (
 			);
-			name = ReactNativeReanimatedStarter;
-			productName = ReactNativeReanimatedStarter;
-			productReference = 13B07F961A680F5B00A75B9A /* ReactNativeReanimatedStarter.app */;
+			name = RNAwesomeTravel;
+			productName = RNAwesomeTravel;
+			productReference = 13B07F961A680F5B00A75B9A /* RNAwesomeTravel.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* ReactNativeReanimatedStarter-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* RNAwesomeTravel-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNativeReanimatedStarter-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RNAwesomeTravel-tvOS" */;
 			buildPhases = (
 				409AEE75D9194D3D3DE69982 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -256,14 +288,14 @@
 			);
 			dependencies = (
 			);
-			name = "ReactNativeReanimatedStarter-tvOS";
-			productName = "ReactNativeReanimatedStarter-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* ReactNativeReanimatedStarter-tvOS.app */;
+			name = "RNAwesomeTravel-tvOS";
+			productName = "RNAwesomeTravel-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* RNAwesomeTravel-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* ReactNativeReanimatedStarter-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* RNAwesomeTravel-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNativeReanimatedStarter-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RNAwesomeTravel-tvOSTests" */;
 			buildPhases = (
 				259C8B85381B19317AB97FEA /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -275,9 +307,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "ReactNativeReanimatedStarter-tvOSTests";
-			productName = "ReactNativeReanimatedStarter-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* ReactNativeReanimatedStarter-tvOSTests.xctest */;
+			name = "RNAwesomeTravel-tvOSTests";
+			productName = "RNAwesomeTravel-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* RNAwesomeTravel-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -293,6 +325,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 6NACL7TVN9;
 						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -306,7 +339,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeReanimatedStarter" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNAwesomeTravel" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -319,10 +352,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* ReactNativeReanimatedStarter */,
-				00E356ED1AD99517003FC87E /* ReactNativeReanimatedStarterTests */,
-				2D02E47A1E0B4A5D006451C7 /* ReactNativeReanimatedStarter-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* ReactNativeReanimatedStarter-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* RNAwesomeTravel */,
+				00E356ED1AD99517003FC87E /* RNAwesomeTravelTests */,
+				2D02E47A1E0B4A5D006451C7 /* RNAwesomeTravel-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* RNAwesomeTravel-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -341,6 +374,14 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				517BB5A5260F454AA1A2B443 /* Montserrat-Bold.ttf in Resources */,
+				7780422E0BF24C4D87A8F546 /* Montserrat-ExtraBold.ttf in Resources */,
+				0F79392303EF4EE59E631164 /* Montserrat-ExtraLight.ttf in Resources */,
+				2CFC1D6F38D74BA6AC25CB0E /* Montserrat-Light.ttf in Resources */,
+				89B0189A30464194A4FF8266 /* Montserrat-Medium.ttf in Resources */,
+				FCF5D29EC1ED47B381EF7631 /* Montserrat-Regular.ttf in Resources */,
+				A40643256DF94119802B3C81 /* Montserrat-SemiBold.ttf in Resources */,
+				85FAD70B79BA46D394032C2A /* Montserrat-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +423,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeReanimatedStarter/Pods-ReactNativeReanimatedStarter-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-RNAwesomeTravel/Pods-RNAwesomeTravel-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -391,7 +432,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeReanimatedStarter/Pods-ReactNativeReanimatedStarter-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNAwesomeTravel/Pods-RNAwesomeTravel-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		1667D0AB76466B2B6A9DC3FA /* [CP] Check Pods Manifest.lock */ = {
@@ -409,7 +450,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeReanimatedStarter-ReactNativeReanimatedStarterTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RNAwesomeTravel-RNAwesomeTravelTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -431,7 +472,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeReanimatedStarter-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RNAwesomeTravel-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -458,7 +499,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeReanimatedStarter-ReactNativeReanimatedStarterTests/Pods-ReactNativeReanimatedStarter-ReactNativeReanimatedStarterTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-RNAwesomeTravel-RNAwesomeTravelTests/Pods-RNAwesomeTravel-RNAwesomeTravelTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -467,7 +508,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeReanimatedStarter-ReactNativeReanimatedStarterTests/Pods-ReactNativeReanimatedStarter-ReactNativeReanimatedStarterTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNAwesomeTravel-RNAwesomeTravelTests/Pods-RNAwesomeTravel-RNAwesomeTravelTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		409AEE75D9194D3D3DE69982 /* [CP] Check Pods Manifest.lock */ = {
@@ -485,7 +526,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeReanimatedStarter-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RNAwesomeTravel-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -507,7 +548,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeReanimatedStarter-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RNAwesomeTravel-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -559,7 +600,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* ReactNativeReanimatedStarterTests.m in Sources */,
+				00E356F31AD99517003FC87E /* RNAwesomeTravelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,7 +626,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* ReactNativeReanimatedStarterTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* RNAwesomeTravelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,12 +635,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* ReactNativeReanimatedStarter */;
+			target = 13B07F861A680F5B00A75B9A /* RNAwesomeTravel */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* ReactNativeReanimatedStarter-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* RNAwesomeTravel-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -607,14 +648,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8922C5E20EFB89E14E1DDA2 /* Pods-ReactNativeReanimatedStarter-ReactNativeReanimatedStarterTests.debug.xcconfig */;
+			baseConfigurationReference = E8922C5E20EFB89E14E1DDA2 /* Pods-RNAwesomeTravel-RNAwesomeTravelTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ReactNativeReanimatedStarterTests/Info.plist;
+				INFOPLIST_FILE = RNAwesomeTravelTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -624,17 +665,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeReanimatedStarter.app/ReactNativeReanimatedStarter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNAwesomeTravel.app/RNAwesomeTravel";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B4ECA4CBEB0766EFF751258 /* Pods-ReactNativeReanimatedStarter-ReactNativeReanimatedStarterTests.release.xcconfig */;
+			baseConfigurationReference = 5B4ECA4CBEB0766EFF751258 /* Pods-RNAwesomeTravel-RNAwesomeTravelTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = ReactNativeReanimatedStarterTests/Info.plist;
+				INFOPLIST_FILE = RNAwesomeTravelTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -644,20 +685,21 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeReanimatedStarter.app/ReactNativeReanimatedStarter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNAwesomeTravel.app/RNAwesomeTravel";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C897A57FF23C9462BFA42C3D /* Pods-ReactNativeReanimatedStarter.debug.xcconfig */;
+			baseConfigurationReference = C897A57FF23C9462BFA42C3D /* Pods-RNAwesomeTravel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NACL7TVN9;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				INFOPLIST_FILE = ReactNativeReanimatedStarter/Info.plist;
+				INFOPLIST_FILE = RNAwesomeTravel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -665,22 +707,24 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ReactNativeReanimatedStarter;
+				PRODUCT_NAME = RNAwesomeTravel;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 119EDDF0738D42F251576668 /* Pods-ReactNativeReanimatedStarter.release.xcconfig */;
+			baseConfigurationReference = 119EDDF0738D42F251576668 /* Pods-RNAwesomeTravel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NACL7TVN9;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				INFOPLIST_FILE = ReactNativeReanimatedStarter/Info.plist;
+				INFOPLIST_FILE = RNAwesomeTravel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -688,15 +732,16 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ReactNativeReanimatedStarter;
+				PRODUCT_NAME = RNAwesomeTravel;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 342313EAE6158B20A42C2DE3 /* Pods-ReactNativeReanimatedStarter-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 342313EAE6158B20A42C2DE3 /* Pods-RNAwesomeTravel-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -707,14 +752,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ReactNativeReanimatedStarter-tvOS/Info.plist";
+				INFOPLIST_FILE = "RNAwesomeTravel-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ReactNativeReanimatedStarter-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.RNAwesomeTravel-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -724,7 +769,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60E38BFC0CB619BD5976DBF4 /* Pods-ReactNativeReanimatedStarter-tvOS.release.xcconfig */;
+			baseConfigurationReference = 60E38BFC0CB619BD5976DBF4 /* Pods-RNAwesomeTravel-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -735,14 +780,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ReactNativeReanimatedStarter-tvOS/Info.plist";
+				INFOPLIST_FILE = "RNAwesomeTravel-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ReactNativeReanimatedStarter-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.RNAwesomeTravel-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -752,7 +797,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B049EDCD5DD68AB47D7FA4C /* Pods-ReactNativeReanimatedStarter-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 9B049EDCD5DD68AB47D7FA4C /* Pods-RNAwesomeTravel-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -762,24 +807,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ReactNativeReanimatedStarter-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "RNAwesomeTravel-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ReactNativeReanimatedStarter-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.RNAwesomeTravel-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeReanimatedStarter-tvOS.app/ReactNativeReanimatedStarter-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNAwesomeTravel-tvOS.app/RNAwesomeTravel-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB1DE5FF16BC9516E779FEAE /* Pods-ReactNativeReanimatedStarter-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = BB1DE5FF16BC9516E779FEAE /* Pods-RNAwesomeTravel-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -789,17 +834,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ReactNativeReanimatedStarter-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "RNAwesomeTravel-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ReactNativeReanimatedStarter-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.RNAwesomeTravel-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeReanimatedStarter-tvOS.app/ReactNativeReanimatedStarter-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNAwesomeTravel-tvOS.app/RNAwesomeTravel-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -920,7 +965,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeReanimatedStarterTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RNAwesomeTravelTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -929,7 +974,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeReanimatedStarter" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNAwesomeTravel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -938,7 +983,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNativeReanimatedStarter-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RNAwesomeTravel-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -947,7 +992,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNativeReanimatedStarter-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RNAwesomeTravel-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -956,7 +1001,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeReanimatedStarter" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNAwesomeTravel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
