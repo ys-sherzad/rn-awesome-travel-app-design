@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { View, StyleSheet, ImageBackground } from 'react-native';
 import { WIDTH } from '../utils';
-import ImageContent from './ImageContent';
-import Animated, { useSharedValue, useAnimatedStyle, withTiming, Easing, } from 'react-native-reanimated';
+import ImageContent from '../components/getStarted/ImageContent.component';
+import Animated, { useSharedValue, useAnimatedStyle, withTiming, Easing } from 'react-native-reanimated';
 
 const VIEW_WIDTH = WIDTH * 0.6;
 

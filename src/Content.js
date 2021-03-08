@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import IntroGetStarted from './components/IntroGetStarted';
-import Home from './components/Home';
+import IntroGetStarted from './containers/IntroGetStarted.container';
+import Home from './containers/Home.container';
 
 function Content(props) {
     return (

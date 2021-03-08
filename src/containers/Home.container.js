@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
-import Avatar from './Avatar';
+import Avatar from '../components/shared/Avatar.component';
 import Feather from 'react-native-vector-icons/Feather';
 
 function Home(props) {

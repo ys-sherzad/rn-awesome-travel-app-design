@@ -4,7 +4,7 @@ import { View, Image, StyleSheet } from 'react-native';
 function Avatar(props) {
     return (
         <View>
-            <Image source={require('../../assets/profile.jpeg')} style={styles.img} />
+            <Image source={require('../../../assets/profile.jpeg')} style={styles.img} />
 
             <View style={styles.dotContainer}>
                 <View style={styles.dot} />

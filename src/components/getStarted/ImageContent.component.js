@@ -1,8 +1,8 @@
 import React from 'react';
 import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
-import Strings from '../strings';
-import AnimatedWrapper from './AnimatedWrapper';
-import AnimatedPagination from './AnimatedPagination';
+import Strings from '../../strings';
+import AnimatedWrapper from '../shared/AnimatedWrapper.component';
+import AnimatedPagination from './AnimatedPagination.component';
 
 function Imagecontent(props) {
 
