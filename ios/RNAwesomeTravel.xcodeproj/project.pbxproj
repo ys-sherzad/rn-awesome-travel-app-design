@@ -27,6 +27,7 @@
 		89B0189A30464194A4FF8266 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6412ECDCF88549ACB01B62A5 /* Montserrat-Medium.ttf */; };
 		A40643256DF94119802B3C81 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E4F932B904F338E7BEEB2 /* Montserrat-SemiBold.ttf */; };
 		B479A34773C4C8C19EC85FD2 /* libPods-RNAwesomeTravel-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB894A50D7906B14B8DF455 /* libPods-RNAwesomeTravel-tvOSTests.a */; };
+		CC4983D525F5163D00093A7C /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC4983D425F5163C00093A7C /* Feather.ttf */; };
 		FCF5D29EC1ED47B381EF7631 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DAE97F4CF024025A1047AD5 /* Montserrat-Regular.ttf */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +81,7 @@
 		BB1DE5FF16BC9516E779FEAE /* Pods-RNAwesomeTravel-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAwesomeTravel-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RNAwesomeTravel-tvOSTests/Pods-RNAwesomeTravel-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		C897A57FF23C9462BFA42C3D /* Pods-RNAwesomeTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAwesomeTravel.debug.xcconfig"; path = "Target Support Files/Pods-RNAwesomeTravel/Pods-RNAwesomeTravel.debug.xcconfig"; sourceTree = "<group>"; };
 		CC01C05801EC49BC9091B444 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBold.ttf"; path = "../assets/fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		CC4983D425F5163C00093A7C /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		E8922C5E20EFB89E14E1DDA2 /* Pods-RNAwesomeTravel-RNAwesomeTravelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAwesomeTravel-RNAwesomeTravelTests.debug.xcconfig"; path = "Target Support Files/Pods-RNAwesomeTravel-RNAwesomeTravelTests/Pods-RNAwesomeTravel-RNAwesomeTravelTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -168,6 +170,7 @@
 		325A009EB5F64390BD136D61 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CC4983D425F5163C00093A7C /* Feather.ttf */,
 				8CB70B8AF6584EE18926916A /* Montserrat-Bold.ttf */,
 				CC01C05801EC49BC9091B444 /* Montserrat-ExtraBold.ttf */,
 				4A49E3507A3F41CA92C4FF90 /* Montserrat-ExtraLight.ttf */,
@@ -373,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				CC4983D525F5163D00093A7C /* Feather.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				517BB5A5260F454AA1A2B443 /* Montserrat-Bold.ttf in Resources */,
 				7780422E0BF24C4D87A8F546 /* Montserrat-ExtraBold.ttf in Resources */,
