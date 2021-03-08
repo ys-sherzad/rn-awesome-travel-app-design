@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
+import Feather from 'react-native-vector-icons/Feather';
 
 function AnimatedPagination(props) {
     const [count, setCount] = useState(1);
@@ -12,6 +13,21 @@ function AnimatedPagination(props) {
             <View style={styles.lineBackground} />
         </View>;
 
+    const renderArrows = () =>
+        <View style={styles.chevronsContainer}>
+            <Feather
+                name='chevron-left'
+                size={22}
+                color='#51504E'
+            />
+            <View style={styles.separator2} />
+            <Feather
+                name='chevron-right'
+                size={22}
+                color='#fff'
+            />
+        </View>;
+
     return (
         <View style={styles.container}>
             <View style={styles.slider}>
@@ -20,9 +36,7 @@ function AnimatedPagination(props) {
                 <Text style={styles.text}>03</Text>
             </View>
             <View style={styles.separator} />
-            <View>
-                <Text style={{ color: 'white' }}>asdfasdf</Text>
-            </View>
+            {renderArrows()}
         </View>
     );
 }
@@ -63,7 +77,14 @@ const styles = StyleSheet.create({
         zIndex: 2,
     },
     separator: {
-        width: 60
+        width: 30
+    },
+    separator2: {
+        width: 20,
+    },
+    chevronsContainer: {
+        flexDirection: 'row',
+        alignItems: 'center'
     }
 });
 
