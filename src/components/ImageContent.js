@@ -20,19 +20,19 @@ function Imagecontent(props) {
 
     const renderContent = () =>
         <>
-            <AnimatedWrapper delayOpacity={1000} delayY={800}>
+            <AnimatedWrapper delayOpacity={800} delayY={600}>
                 <Text style={styles.mainText}>{Strings.imageContentTitle}</Text>
             </AnimatedWrapper>
 
             <View style={styles.separator} />
 
-            <AnimatedWrapper delayOpacity={1200} delayY={1000}>
+            <AnimatedWrapper delayOpacity={1000} delayY={800}>
                 <Text style={styles.subText}>{Strings.imageContentSubTitle}</Text>
             </AnimatedWrapper>
 
             <View style={styles.separator2} />
 
-            <AnimatedWrapper delayOpacity={1400} delayY={1200}>
+            <AnimatedWrapper delayOpacity={1200} delayY={1000}>
                 {renderButton()}
             </AnimatedWrapper>
         </>;
@@ -47,7 +47,7 @@ function Imagecontent(props) {
             {renderContent()}
 
             <View style={styles.flexOne} />
-            <AnimatedWrapper delayOpacity={1800} delayY={1600}>
+            <AnimatedWrapper delayOpacity={1400} delayY={1200}>
                 {renderFooter()}
             </AnimatedWrapper>
 
