@@ -24,12 +24,12 @@ function IntroGetStarted(props) {
 
     useEffect(() => {
         width.value = withTiming(VIEW_WIDTH, {
-            duration: 1400,
+            duration: 1000,
             easing: Easing.inOut(Easing.sin)
         });
         opacity.value = withTiming(0.3, {
-            duration: 1900,
-            easing: Easing.inOut(Easing.quad)
+            duration: 1500,
+            easing: Easing.exp
         });
     }, []);
 
