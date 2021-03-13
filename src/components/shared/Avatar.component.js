@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Image, StyleSheet } from 'react-native';
+import { colors } from '../../utils';
 
 function Avatar(props) {
     return (
@@ -35,7 +36,7 @@ const styles = StyleSheet.create({
         height: 10,
         width: 10,
         borderRadius: 20 / 2,
-        backgroundColor: '#F75D36',
+        backgroundColor: colors.primary,
         // position: 'absolute',
         // right: 0
     }

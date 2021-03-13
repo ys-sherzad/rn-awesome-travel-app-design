@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
 import Strings from '../../strings';
+import { colors } from '../../utils';
 import AnimatedWrapper from '../shared/AnimatedWrapper.component';
 import AnimatedPagination from './AnimatedPagination.component';
 
@@ -95,7 +96,7 @@ const styles = StyleSheet.create({
     btn: {
         height: 60,
         width: 280,
-        backgroundColor: '#F75D36',
+        backgroundColor: colors.primary,
         borderRadius: 10,
         justifyContent: 'center',
         alignItems: 'center'
