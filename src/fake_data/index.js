@@ -1,0 +1,16 @@
+export const data = [
+    { title: 'Kayaking at the village Gudvangen', location: 'Norway', image: require('../../assets/image2.jpg') },
+    { title: 'Kayaking at the village Gudvangen', location: 'Norway', image: require('../../assets/image2.jpg') },
+    { title: 'Kayaking at the village Gudvangen', location: 'Norway', image: require('../../assets/image2.jpg') },
+    { title: 'Kayaking at the village Gudvangen', location: 'Norway', image: require('../../assets/image2.jpg') },
+    { title: 'Kayaking at the village Gudvangen', location: 'Norway', image: require('../../assets/image2.jpg') },
+    { title: 'Kayaking at the village Gudvangen', location: 'Norway', image: require('../../assets/image2.jpg') },
+    { title: 'Kayaking at the village Gudvangen', location: 'Norway', image: require('../../assets/image2.jpg') },
+    { title: 'Kayaking at the village Gudvangen', location: 'Norway', image: require('../../assets/image2.jpg') },
+    { title: 'Kayaking at the village Gudvangen', location: 'Norway', image: require('../../assets/image2.jpg') },
+    { title: 'Kayaking at the village Gudvangen', location: 'Norway', image: require('../../assets/image2.jpg') },
+    { title: 'Kayaking at the village Gudvangen', location: 'Norway', image: require('../../assets/image2.jpg') },
+    { title: 'Kayaking at the village Gudvangen', location: 'Norway', image: require('../../assets/image2.jpg') },
+    { title: 'Kayaking at the village Gudvangen', location: 'Norway', image: require('../../assets/image2.jpg') },
+    { title: 'Kayaking at the village Gudvangen', location: 'Norway', image: require('../../assets/image2.jpg') },
+];
