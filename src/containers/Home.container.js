@@ -2,6 +2,9 @@ import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 import Avatar from '../components/shared/Avatar.component';
 import Feather from 'react-native-vector-icons/Feather';
+import AnimatedTabs from '../components/home/AnimatedTabs.component';
+import { colors } from '../utils';
+import Scrollablecards from '../components/home/ScrollableCards.component';
 
 function Home(props) {
 
@@ -46,6 +49,10 @@ function Home(props) {
             {renderSearchInput()}
             <View style={{ height: 50 }} />
             {renderTitle()}
+            <View style={{ height: 10 }} />
+            <AnimatedTabs />
+            <View style={{ height: 14 }} />
+            <Scrollablecards />
         </View>
     );
 }
@@ -92,11 +99,11 @@ const styles = StyleSheet.create({
     searchText: {
         fontFamily: 'Montserrat-SemiBold',
         fontSize: 20,
-        color: '#CBCBCB'
+        color: colors.inactive
     },
     inputBottomLine: {
         height: 2,
-        backgroundColor: '#F8F6F7',
+        backgroundColor: colors.border,
         marginTop: 12
     },
     title: {
