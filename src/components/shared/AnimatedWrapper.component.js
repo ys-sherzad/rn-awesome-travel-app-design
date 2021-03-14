@@ -4,7 +4,7 @@ import Animated, { useSharedValue, useAnimatedStyle, withTiming, Easing, withDel
 
 const opacityConfig = {
     duration: 1200,
-    easing: Easing.inOut(Easing.sin)
+    easing: Easing.inOut(Easing.cubic)
 };
 
 function AnimatedWrapper({ children, delayOpacity, delayY }) {
