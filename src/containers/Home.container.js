@@ -44,15 +44,31 @@ function Home(props) {
 
     return (
         <View style={styles.container}>
+
             {renderHeader()}
+
             <View style={{ height: 50 }} />
+
             {renderSearchInput()}
+
             <View style={{ height: 50 }} />
+
             {renderTitle()}
+
             <View style={{ height: 10 }} />
+
             <AnimatedTabs />
-            <View style={{ height: 14 }} />
-            <Scrollablecards />
+
+            <View style={{ height: 10 }} />
+
+            <View style={{ marginVertical: 8 }}>
+                <Scrollablecards />
+            </View>
+
+            <View style={{ height: 10 }} />
+
+
+
         </View>
     );
 }
