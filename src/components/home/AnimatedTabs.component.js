@@ -48,7 +48,6 @@ function AnimatedTabs(props) {
         offset.value = animateToValue;
     };
 
-
     const tabButton = (tab) => {
         const textStyle = tab.id === selectedTabId ?
             StyleSheet.flatten([styles.tabText, { color: colors.primary }])
@@ -62,7 +61,6 @@ function AnimatedTabs(props) {
         );
     };
 
-
     const dotIndicator = () =>
         <Animated.View style={[styles.dotContainer, animatedX]}>
             <View style={styles.dot} />
@@ -71,7 +69,13 @@ function AnimatedTabs(props) {
     return (
         <View style={styles.container}>
             <View style={styles.tabsContainer}>
-                {tabs.map((tab) => tabButton(tab))}
+                {tabs.map((tab) => {
+                    return (
+                        <View key={tab.id}>
+                            {tabButton(tab)}
+                        </View>
+                    );
+                })}
             </View>
 
             {dotIndicator()}
@@ -82,10 +86,11 @@ function AnimatedTabs(props) {
 
 const styles = StyleSheet.create({
     container: {
-        height: 50,
+        height: 60,
         width: CONTAINER_WIDTH,
         justifyContent: 'center',
-        marginHorizontal: 35
+        marginHorizontal: 35,
+        // backgroundColor: 'yellow'
     },
     tabsContainer: {
         flexDirection: 'row',
@@ -104,6 +109,7 @@ const styles = StyleSheet.create({
     dotContainer: {
         width: TAB_WIDTH,
         alignItems: 'center',
+        marginTop: -12
     },
     dot: {
         height: 6,
