@@ -5,6 +5,8 @@ import Feather from 'react-native-vector-icons/Feather';
 import AnimatedTabs from '../components/home/AnimatedTabs.component';
 import { colors } from '../utils';
 import Scrollablecards from '../components/home/ScrollableCards.component';
+import Strings from '../strings';
+import Categories from '../components/home/Categories.component';
 
 function Home(props) {
 
@@ -17,8 +19,8 @@ function Home(props) {
             </View>
             <View style={styles.flexOne} />
             <View style={styles.headerRight}>
-                <Text style={styles.menuTabText}>Discover</Text>
-                <Text style={styles.menuTabText}>Blog</Text>
+                <Text style={styles.menuTabText}>{Strings.discover}</Text>
+                <Text style={styles.menuTabText}>{Strings.blog}</Text>
                 <Avatar />
             </View>
         </View>;
@@ -32,14 +34,14 @@ function Home(props) {
                     color='#0A0A0A'
                 />
                 <View style={{ width: 12 }} />
-                <Text style={styles.searchText}>Search</Text>
+                <Text style={styles.searchText}>{Strings.search}</Text>
             </View>
             <View style={styles.inputBottomLine} />
         </View>;
 
     const renderTitle = () =>
         <View style={{ paddingHorizontal: 45 }}>
-            <Text style={styles.title}>Discover</Text>
+            <Text style={styles.title}>{Strings.discover}</Text>
         </View>;
 
     return (
@@ -65,8 +67,9 @@ function Home(props) {
                 <Scrollablecards />
             </View>
 
-            <View style={{ height: 10 }} />
+            <View style={{ height: 40 }} />
 
+            <Categories />
 
 
         </View>
