@@ -2,12 +2,15 @@ import React, { useCallback, useRef, useState } from 'react';
 import { StyleSheet, FlatList, View } from 'react-native';
 import Card from './Card.component';
 import * as FakeData from '../../fake_data';
-import { colors, PIXEL_RATIO } from '../../utils';
+import { colors } from '../../utils';
 import Arrows from '../shared/Arrows.component';
+
+const numOftItemsToScroll = 2;
+const numOfTotalItems = FakeData.data.length;
 
 function Scrollablecards(props) {
     const flatListRef = useRef();
-    const [animatedCurrentIndex, setAnimatedCurrentIndex] = useState(0);
+    const [currentIndex, setCurrentIndex] = useState(1);
 
     const renderItem = ({ item, index }) =>
         <Card {...{ item }} {...{ index }} />;
@@ -20,13 +23,19 @@ function Scrollablecards(props) {
         console.log('left pressed');
     }, []);
 
-    const onRightArrowPress = () => {
+    console.log({ currentIndex });
 
+
+    const onRightArrowPress = () => {
+        const scrollToIndex = currentIndex * numOftItemsToScroll;
+        if (scrollToIndex > numOfTotalItems) return;
+        console.log({ scrollToIndex });
         if (flatListRef.current) {
             flatListRef.current.scrollToIndex({
                 animated: true,
-                index: 4
+                index: scrollToIndex
             });
+            setCurrentIndex(scrollToIndex);
         }
     };
 
@@ -36,14 +45,23 @@ function Scrollablecards(props) {
     // }
 
     getItemLayout = (data, index) => (
-        { length: 260, offset: 260 * index, index }
+        { length: 260, offset: (260 + 14) * index, index }
     );
+
+    onMomentumScrollEnd = (event) => {
+        console.log({ event });
+    };
+
+    onScrollEndDrag = (event) => {
+        console.log({ event });
+    };
 
     return (
         <View>
             <FlatList
                 ref={flatListRef}
                 horizontal
+                // pagingEnabled
                 data={FakeData.data}
                 {...{ renderItem }}
                 {...{ keyExtractor }}
@@ -52,9 +70,11 @@ function Scrollablecards(props) {
                 showsHorizontalScrollIndicator={false}
                 initialNumToRender={2}
                 {...{ getItemLayout }}
+            // {...{ onMomentumScrollEnd }}
+            // {...{ onScrollEndDrag }}
             />
 
-            <View style={styles.arrowsContainer}>
+            {/* <View style={styles.arrowsContainer}>
                 <Arrows
                     {...{ onLeftArrowPress }}
                     {...{ onRightArrowPress }}
@@ -62,7 +82,7 @@ function Scrollablecards(props) {
                     rightArrowColor={colors.iconActive}
                     size={26}
                 />
-            </View>
+            </View> */}
         </View>
     );
 }
