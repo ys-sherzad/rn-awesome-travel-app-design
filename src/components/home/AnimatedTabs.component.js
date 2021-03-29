@@ -68,6 +68,7 @@ function AnimatedTabs(props) {
 
     return (
         <View style={styles.container}>
+
             <View style={styles.tabsContainer}>
                 {tabs.map((tab) => {
                     return (
@@ -90,7 +91,6 @@ const styles = StyleSheet.create({
         width: CONTAINER_WIDTH,
         justifyContent: 'center',
         marginHorizontal: 35,
-        // backgroundColor: 'yellow'
     },
     tabsContainer: {
         flexDirection: 'row',
