@@ -67,10 +67,9 @@ function Home(props) {
                 <Scrollablecards />
             </View>
 
-            <View style={{ height: 40 }} />
+            <View style={{ height: 50 }} />
 
             <Categories />
-
 
         </View>
     );
