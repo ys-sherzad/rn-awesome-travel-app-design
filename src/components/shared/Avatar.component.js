@@ -37,8 +37,6 @@ const styles = StyleSheet.create({
         width: 10,
         borderRadius: 20 / 2,
         backgroundColor: colors.primary,
-        // position: 'absolute',
-        // right: 0
     }
 });
 

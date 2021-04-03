@@ -7,11 +7,13 @@ const timingConfig = {
     easing: Easing.inOut(Easing.cubic)
 };
 
+const delayTime = 1800;
+
 function AnimatedHorizontal({ children, index }) {
     const offset = useSharedValue(WIDTH * .4);
 
     const animatedX = useAnimatedStyle(() => {
-        const dur = (index * 80) + 2300;
+        const dur = (index * 80) + delayTime;
         return {
             transform: [{
                 translateX: withDelay(dur,
