@@ -5,42 +5,39 @@ import { colors } from '../../utils';
 import AnimatedHorizontal from '../shared/AnimatedHorizontal.component';
 
 const cats = [
-    { name: 'kayaking', img: require('../../../assets/kayak.png') },
-    { name: 'ballooning', img: require('../../../assets/air-hot-balloon.png') },
-    { name: 'hiking', img: require('../../../assets/mountain.png') },
-    { name: 'snorkeling', img: require('../../../assets/snorkling.png') },
-    { name: 'safari', img: require('../../../assets/jeep.png') },
+    { name: 'cycling', img: require('../../../assets/bicycle-rider.png') },
+    { name: 'swimming', img: require('../../../assets/swimming.png') },
+    { name: 'skiing', img: require('../../../assets/ski.png') },
+    { name: 'hiking', img: require('../../../assets/traveler.png') },
 ];
 
 function Categories({ }) {
 
-    const renderHeader = () =>
+    const renderHeader = () => (
         <View style={styles.header}>
             <Text style={styles.headerTitle}>{Strings.adventurous_mood}</Text>
             <Text style={styles.showAll}>{Strings.show_all}</Text>
-        </View>;
+        </View>);
 
-    const renderCategories = () => {
-        return (
-            <ScrollView
-                horizontal
-                showsHorizontalScrollIndicator={false}
-                contentContainerStyle={styles.categoriesContainer}
-            >
-                {cats.map((cat, index) => {
-                    return (
-                        <AnimatedHorizontal key={cat.name} {...{ index }}>
-                            <View style={styles.categoryBtn}>
-                                <Image source={cat.img} style={styles.catImage} />
-                                <View style={{ height: 14 }} />
-                                <Text style={styles.categoryText}>{cat.name.toUpperCase()}</Text>
-                            </View>
-                        </AnimatedHorizontal>
-                    );
-                })}
-            </ScrollView>
-        );
-    };
+    const categoryItems = cats.map((cat, index) => (
+        <AnimatedHorizontal key={cat.name} {...{ index }}>
+            <View style={styles.categoryBtn}>
+                <Image source={cat.img} style={styles.catImage} />
+                <View style={{ height: 14 }} />
+                <Text style={styles.categoryText}>{cat.name.toUpperCase()}</Text>
+            </View>
+        </AnimatedHorizontal>
+    ));
+
+    const renderCategories = () => (
+        <ScrollView
+            horizontal
+            showsHorizontalScrollIndicator={false}
+            contentContainerStyle={styles.categoriesContainer}
+        >
+            {categoryItems}
+        </ScrollView>
+    );
 
     return (
         <View style={styles.container}>
@@ -54,7 +51,7 @@ const styles = StyleSheet.create({
     container: {},
     header: {
         flexDirection: 'row',
-        alignItems: 'center',
+        alignItems: 'flex-end',
         justifyContent: 'space-between',
         paddingHorizontal: 46
     },
