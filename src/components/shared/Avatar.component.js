@@ -5,7 +5,7 @@ import { colors } from '../../utils';
 function Avatar(props) {
     return (
         <View>
-            <Image source={require('../../../assets/profile.jpeg')} style={styles.img} />
+            <Image source={require('../../../assets/profileImg.jpeg')} style={styles.img} />
 
             <View style={styles.dotContainer}>
                 <View style={styles.dot} />
