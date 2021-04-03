@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { StyleSheet, Text, TouchableWithoutFeedback } from 'react-native';
 import { View } from 'react-native';
 import Animated, { useSharedValue, useAnimatedStyle, withTiming, Easing } from 'react-native-reanimated';
@@ -13,10 +13,9 @@ const tabs = [
 const CONTAINER_WIDTH = 150 * 3;
 const TAB_WIDTH = 150;
 
-function AnimatedTabs(props) {
+function AnimatedTabs({ selectedTabId, setSelectedTabId }) {
     const offset = useSharedValue(0);
 
-    const [selectedTabId, setSelectedTabId] = useState(0);
 
     const animatedX = useAnimatedStyle(() => {
         return {
@@ -45,6 +44,7 @@ function AnimatedTabs(props) {
         if (selectedTabId === 2) {
             animateToValue = TAB_WIDTH * 2;
         }
+
         offset.value = animateToValue;
     };
 
@@ -83,7 +83,6 @@ function AnimatedTabs(props) {
         </View>
     );
 }
-
 
 const styles = StyleSheet.create({
     container: {
