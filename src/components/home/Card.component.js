@@ -5,9 +5,9 @@ import Feather from 'react-native-vector-icons/Feather';
 import AnimatedHorizontal from '../shared/AnimatedHorizontal.component';
 
 const gradientColors = [
-    'rgba(0,0,0,0.1)',
-    'rgba(0,0,0,0.15)',
-    'rgba(0,0,0,0.6)'
+    'rgba(0,0,0,0.0)',
+    'rgba(0,0,0,0.0)',
+    'rgba(0,0,0,0.8)'
 ];
 
 function Card({ item, index }) {
@@ -15,9 +15,9 @@ function Card({ item, index }) {
 
     return (
         <AnimatedHorizontal {...{ index }}>
-            <View style={styles.container}>
 
-                <Image source={require('../../../assets/image2.jpg')} style={styles.bgImage} />
+            <View style={styles.container}>
+                <Image source={image} style={styles.bgImage} />
 
                 <LinearGradient colors={gradientColors} style={styles.gradientLayer} />
 
@@ -25,12 +25,12 @@ function Card({ item, index }) {
                     <Text style={styles.titleText}>{title}</Text>
 
                     <View style={styles.locationContainer}>
-                        <Feather name='map-pin' size={18} color='#fff' />
+                        <Feather name='map-pin' size={13} color='#fff' />
                         <Text style={styles.locationText}>{location}</Text>
                     </View>
                 </View>
-
             </View>
+
         </AnimatedHorizontal>
     );
 }
@@ -58,13 +58,15 @@ const styles = StyleSheet.create({
     textContent: {
         position: 'absolute',
         bottom: 0,
+        left: 0,
+        right: 0,
         marginBottom: 26,
-        marginLeft: 20,
+        marginHorizontal: 20,
         zIndex: 3,
     },
     titleText: {
-        fontSize: 18,
-        fontFamily: 'Montserrat-Bold',
+        fontSize: 16,
+        fontFamily: 'Montserrat-SemiBold',
         color: '#fff'
     },
     locationContainer: {
@@ -73,7 +75,7 @@ const styles = StyleSheet.create({
         marginTop: 12,
     },
     locationText: {
-        fontSize: 16,
+        fontSize: 13,
         fontFamily: 'Montserrat-Medium',
         color: '#fff',
         marginLeft: 7
