@@ -64,8 +64,6 @@ const styles = StyleSheet.create({
     separator: {
         width: 30
     },
-
-
 });
 
 export default AnimatedPagination;

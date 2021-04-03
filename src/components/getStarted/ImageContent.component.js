@@ -12,12 +12,7 @@ function Imagecontent(props) {
             <Text style={styles.getStarted}>{Strings.getStarted}</Text>
         </TouchableOpacity>;
 
-    const renderFooter = () =>
-        // <View style={{ flex: 1 }}>
-        <AnimatedPagination />;
-    // </View>;
-
-
+    const renderFooter = () => <AnimatedPagination />;
 
     const renderContent = () =>
         <>
@@ -43,15 +38,16 @@ function Imagecontent(props) {
             <AnimatedWrapper>
                 <Text style={styles.headerTitle}>{Strings.imageHeaderTitle}</Text>
             </AnimatedWrapper>
+
             <View style={styles.flexOne} />
 
             {renderContent()}
 
             <View style={styles.flexOne} />
+
             <AnimatedWrapper delayOpacity={1400} delayY={1200}>
                 {renderFooter()}
             </AnimatedWrapper>
-
         </View>
     );
 }
