@@ -1,4 +1,4 @@
-# A React Native Reanimated 2 (Travel App)
+# A React Native Reanimated 2 (Awesome Travel App)
 >*<b>Note:</b> Only iPad and Tablets responsive*
 
 ![](awesome-travel-app.gif)
